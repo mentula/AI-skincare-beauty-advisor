@@ -1,0 +1,26 @@
+{
+    "cleanser": {
+        "name": "Gentle Foaming Cleanser",
+        "link": "https://example.com/?aff=YOURID"
+    },
+    "serum": {
+        "name": "Vitamin C Brightening Serum",
+        "link": "https://example.com/?aff=YOURID"
+    },
+    "moisturizer": {
+        "name": "Hydrating Gel Moisturizer",
+        "link": "https://example.com/?aff=YOURID"
+    },
+    "spf": {
+        "name": "Broad Spectrum SPF 50",
+        "link": "https://example.com/?aff=YOURID"
+    },
+    "foundation": {
+        "name": "Natural Finish Foundation",
+        "link": "https://example.com/?aff=YOURID"
+    },
+    "mascara": {
+        "name": "Volumizing Mascara",
+        "link": "https://example.com/?aff=YOURID"
+    }
+}
