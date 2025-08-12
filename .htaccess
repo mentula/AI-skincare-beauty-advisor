@@ -1,0 +1,26 @@
+# Security Headers
+Header set X-Content-Type-Options nosniff
+Header set X-Frame-Options SAMEORIGIN
+Header set X-XSS-Protection "1; mode=block"
+
+# Disable directory listing
+Options -Indexes
+
+# Prevent access to sensitive files
+<Files "*.json">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Allow access to products.json for the application
+<Files "products.json">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Rewrite engine off (for hosts that use it)
+RewriteEngine Off
+
+# Force HTTPS (uncomment if you have SSL)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
